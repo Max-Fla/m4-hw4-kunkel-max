@@ -1,0 +1,34 @@
+body {
+    background-color:hsl(180, 68%, 85%);
+    color:black;
+    max-width: 900px;
+    margin: auto;
+    }
+
+h1 {
+        margin: 35px 0;
+        font-size: 40px;
+        color:darkblue;
+        text-align: center;
+        background-color: azure;
+    }
+
+h3, a {
+        color:cornflowerblue;
+    }
+
+#photo-dua-heading {
+    text-align: center;
+}
+
+section h2 {
+    color:darkcyan;
+}
+
+section > article > h2 {
+    color:darkblue
+}
+
+h2 ~ p {
+    color:darkcyan;
+}
